@@ -4,3 +4,8 @@
 .stip-prod-color{
     background-color: darkred !important;
 }
+.white-text {
+    color: white !important;
+    font-size: 25px;
+    font-weight: 500;
+}
