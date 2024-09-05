@@ -13,17 +13,6 @@ function onElementAvailable(className, callback) {
   observer.observe(document.body, { childList: true, subtree: true });
 }
 
-function onElementAvailableQuerySelector(attribute, callback) {
-  const observer = new MutationObserver(mutations => {
-    const el = document.querySelectorAll(attribute)?.[0];
-    if (el) {
-      observer.disconnect();
-      callback(el);
-    }
-  });
-  observer.observe(document.body, {childList: true, subtree: true});
-}
-
 let currentUrl = document.location.href;
 
 let env;
