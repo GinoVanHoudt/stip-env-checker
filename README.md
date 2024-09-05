@@ -1,6 +1,6 @@
 # How to install the chrome extension locally?
 ### Using the .crx file (easy mode)
-1. download the .crx file from https://github.com/GinoVanHoudt/stip-env-checker/blob/main/stip-env-checker.crx
+1. download the .zip file from https://github.com/GinoVanHoudt/stip-env-checker/blob/main/stip-env-checker.crx
 2. in chrome, go to `chrome://extensions/`
 3. drag and drop the .crx file into the extensions page
 4. the extension should now be installed and ready to use
