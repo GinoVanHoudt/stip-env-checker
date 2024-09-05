@@ -1,3 +1,4 @@
+const STIP_DEV_URL = 'stip-dev.seatankterminal.com';
 const STIP_TEST_URL = 'stip-test.seatankterminal.com';
 const STIP_PROD_URL = 'stip.seatankterminal.com';
 
@@ -16,7 +17,9 @@ function onElementAvailable(className, callback) {
 let currentUrl = document.location.href;
 
 let env;
-if (currentUrl.includes(STIP_TEST_URL)) {
+if (currentUrl.includes(STIP_DEV_URL)) {
+  env = 'dev';
+} else if (currentUrl.includes(STIP_TEST_URL)) {
   env = 'test';
 } else if (currentUrl.includes(STIP_PROD_URL)) {
   env = 'prod';

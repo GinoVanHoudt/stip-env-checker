@@ -1,9 +1,15 @@
-.stip-test-color{
+.stip-dev-color {
+    background-color: darkgoldenrod !important;
+}
+
+.stip-test-color {
     background-color: darkseagreen !important;
 }
-.stip-prod-color{
+
+.stip-prod-color {
     background-color: darkred !important;
 }
+
 .white-text {
     color: white !important;
     font-size: 25px;
