@@ -7,18 +7,20 @@
 5. the extension should now be installed and ready to use!
 
 ### Using the local files (for developers)
-1. in Chrome, go to `chrome://extensions/`
-2. enable `developer mode` (top right corner)
-3. click on `load unpacked` (top left corner)
-4. select the root folder of this project (where the manifest.json file is located)
-5. the extension should now be installed and ready to use!
-6. click the refresh icon on the extension card to reload the latest changes you made in the code
+1. check out the repository
+2. in Chrome, go to `chrome://extensions/`
+3. enable `developer mode` (top right corner)
+4. click on `load unpacked` (top left corner)
+5. select the root folder of this project (where the manifest.json file is located)
+6. the extension should now be installed and ready to use!
+7. click the refresh icon on the extension card to reload the latest changes you made in the code
 
 ***
 ## Future improvements
 _(If I find the time for it)_
 - easy enable/disable the extension through the extension icon
 - publish extension to the public Chrome web store
+- implement typescript
 - color picker to customize the background color of the header banner
 - instead of changing header banner color, change the theme of the app
 - enable/disable dark mode?
