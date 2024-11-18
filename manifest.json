@@ -8,7 +8,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://*.seatankterminal.com/*"],
+      "matches": ["https://*.seatankterminal.com/*", "http://localhost:4200/*"],
       "css": ["my-styles.css"],
       "js": ["content-script.js"]
     }
