@@ -18,7 +18,7 @@
 }
 
 .chip-test-color {
-    background: repeating-linear-gradient(55deg, darkseagreen, rgba(143, 188, 143, 0.5) 7.5%, darkseagreen 15%) !important;
+    background: repeating-linear-gradient(55deg, darkseagreen, rgba(143, 188, 143, 0.65) 5%, darkseagreen 10%) !important;
 }
 
 .prod-color {
