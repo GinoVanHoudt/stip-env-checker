@@ -1,9 +1,9 @@
-.dark-mode {
+/* .dark-mode { */
     /*background-color: black;*/
-    > app-root > app-core-container > mat-drawer-container {
+    /* > app-root > app-core-container > mat-drawer-container { */
         /*filter: contrast(0.85) invert(1);*/
-    }
-}
+    /* } */
+/* } */
 
 .stip-dev-color {
     background-color: darkgoldenrod !important;
