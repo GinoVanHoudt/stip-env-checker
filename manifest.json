@@ -7,7 +7,7 @@
     "default_icon": "icon-512.png",
     "default_popup": "popup/popup.html"
   },
-  "permissions": ["storage"],
+  "permissions": ["storage", "tabs"],
   "content_scripts": [
     {
       "matches": ["https://*.seatankterminal.com/*", "http://localhost:4200/*"],
