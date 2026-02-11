@@ -33,21 +33,25 @@ if (currentUrl.includes(STIP_DEV_URL)) {
   env = 'chip-test';
 }
 
-if (env) {
-  onElementAvailable('core-header', (el) => {
-    el.classList.add(`${env}-color`);
+chrome.storage.local.get('enabled', (data) => {
+  if (data.enabled === false) return;
 
-    const divElement = document.createElement("div");
-    const textNode = document.createTextNode(`${env.toUpperCase()} ENVIRONMENT`);
-    divElement.appendChild(textNode);
-    divElement.classList.add('white-text');
-    el.children?.[0].appendChild(divElement);
-  });
-}
+  if (env) {
+    onElementAvailable('core-header', (el) => {
+      el.classList.add(`${env}-color`);
 
-// add dark mode
-if (env == null) {
-  onElementAvailable('mat-typography', (el) => {
-    el.classList.add('dark-mode');
-  });
-}
+      const divElement = document.createElement("div");
+      const textNode = document.createTextNode(`${env.toUpperCase()} ENVIRONMENT`);
+      divElement.appendChild(textNode);
+      divElement.classList.add('white-text');
+      el.children?.[0].appendChild(divElement);
+    });
+  }
+
+  // add dark mode
+  if (env == null) {
+    onElementAvailable('mat-typography', (el) => {
+      el.classList.add('dark-mode');
+    });
+  }
+});
