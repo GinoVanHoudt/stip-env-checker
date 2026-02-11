@@ -12,7 +12,12 @@
     {
       "matches": ["https://*.seatankterminal.com/*", "http://localhost:4200/*"],
       "css": ["my-styles.css"],
-      "js": ["content-script.js"]
+      "js": [
+        "features/utils.js",
+        "features/banner.js",
+        "features/darkmode.js",
+        "content-script.js"
+      ]
     }
   ]
 }
