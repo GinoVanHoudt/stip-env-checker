@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "STiP/CHiP env checker",
-  "description": "Extension to change the color of the header based on the environment",
+  "name": "STIP/CHIP env toolkit",
+  "description": "Environment banner colors and dark mode for STiP/CHiP",
   "version": "1.0",
   "action": {
     "default_icon": "icon-512.png",
