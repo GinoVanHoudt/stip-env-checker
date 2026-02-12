@@ -18,9 +18,8 @@
 ***
 ## Future improvements
 _(If I find the time for it)_
-- easy enable/disable the extension through the extension icon
 - publish extension to the public Chrome web store
 - implement typescript
 - color picker to customize the background color of the header banner
 - instead of changing header banner color, change the theme of the app
-- enable/disable dark mode?
+- improve dark mode
