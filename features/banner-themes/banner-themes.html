@@ -1,7 +1,48 @@
 <div id="banner-themes-screen" class="screen-hidden">
   <div class="screen-header">
     <button id="back-to-main" class="back-btn">&#9664;</button>
-    <h3>Banner Themes 🎨</h3>
+    <h3>Banner Themes&nbsp;&nbsp;🎨</h3>
   </div>
-  <p class="placeholder-text">Coming soon...</p>
+
+  <div class="theme-row" data-env="stip-dev">
+    <label class="theme-label" for="color-stip-dev">STIP Dev</label>
+    <div class="theme-controls">
+      <div class="color-preview stip-dev-preview"></div>
+      <input type="color" id="color-stip-dev" class="color-picker" />
+    </div>
+  </div>
+
+  <div class="theme-row" data-env="stip-test">
+    <label class="theme-label" for="color-stip-test">STIP Test</label>
+    <div class="theme-controls">
+      <div class="color-preview stip-test-preview"></div>
+      <input type="color" id="color-stip-test" class="color-picker" />
+    </div>
+  </div>
+
+  <div class="theme-row" data-env="chip-dev">
+    <label class="theme-label" for="color-chip-dev">CHIP Dev</label>
+    <div class="theme-controls">
+      <div class="color-preview chip-dev-preview"></div>
+      <input type="color" id="color-chip-dev" class="color-picker" />
+    </div>
+  </div>
+
+  <div class="theme-row" data-env="chip-test">
+    <label class="theme-label" for="color-chip-test">CHIP Test</label>
+    <div class="theme-controls">
+      <div class="color-preview chip-test-preview"></div>
+      <input type="color" id="color-chip-test" class="color-picker" />
+    </div>
+  </div>
+
+  <div class="theme-row" data-env="prod">
+    <label class="theme-label" for="color-prod">Prod</label>
+    <div class="theme-controls">
+      <div class="color-preview prod-preview"></div>
+      <input type="color" id="color-prod" class="color-picker" />
+    </div>
+  </div>
+
+  <button id="reset-themes" class="reset-btn">Reset to defaults</button>
 </div>

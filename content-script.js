@@ -24,6 +24,12 @@ chrome.storage.onChanged.addListener((changes) => {
   if (changes.banner && env) {
     changes.banner.newValue === false ? removeEnvHeader() : applyEnvHeader();
   }
+  if (changes.bannerThemes && env) {
+    removeEnvHeader();
+    chrome.storage.local.get(['banner'], (data) => {
+      if (data.banner !== false) applyEnvHeader();
+    });
+  }
   if (changes.darkmode) {
     changes.darkmode.newValue === true ? applyDarkMode() : removeDarkMode();
   }
