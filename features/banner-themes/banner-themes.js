@@ -15,8 +15,7 @@ function buildPreviewStyle(envKey, color) {
     const r = parseInt(color.slice(1, 3), 16);
     const g = parseInt(color.slice(3, 5), 16);
     const b = parseInt(color.slice(5, 7), 16);
-    return `repeating-linear-gradient(55deg, ${color}, rgba(${r},${g},${b},0.5) 7.5%, ${color} 15%)`;
-  }
+    return `repeating-linear-gradient(55deg, ${color}, rgba(${r},${g},${b},0.5) 7.5%, ${color} 15%)`;    }
   return color;
 }
 
