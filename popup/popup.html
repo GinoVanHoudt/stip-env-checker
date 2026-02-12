@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="UTF-8">
   <link rel="stylesheet" href="popup.css">
+  <link rel="stylesheet" href="../features/banner-themes/banner-themes.css">
   <title>STiP/CHiP Chrome extension</title>
 </head>
 <body>
+  <div id="main-screen">
   <h2>STIP env toolkit</h2>
   <hr>
   <h3>Open page on other environment</h3>
@@ -16,20 +19,27 @@
   <hr>
   <h3>Settings</h3>
   <div class="setting-row">
-    <span>Banner Color</span>
+    <span>Enable banner color</span>
     <label class="toggle">
       <input type="checkbox" id="banner-toggle" checked>
       <span class="slider"></span>
     </label>
   </div>
+  <div class="setting-row setting-link" id="open-banner-themes">
+    <span>Banner themes 🎨</span>
+    <span class="arrow">&#9654;</span>
+  </div>
   <div class="setting-row">
-    <span>Dark Mode (experimental)</span>
+    <span>Dark mode (experimental)</span>
     <label class="toggle">
       <input type="checkbox" id="darkmode-toggle">
       <span class="slider"></span>
     </label>
   </div>
+  </div>
+
   <script src="popup.js"></script>
+  <script src="../features/banner-themes/banner-themes.js"></script>
   <script src="../features/open-on.js"></script>
 </body>
 </html>

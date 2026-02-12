@@ -103,3 +103,21 @@ hr {
   opacity: 0.4;
   cursor: default;
 }
+
+.setting-link {
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 4px 6px;
+  margin-left: -6px;
+  margin-right: -6px;
+  transition: background-color 0.2s;
+}
+
+.setting-link:hover {
+  background-color: #505a72;
+}
+
+.arrow {
+  font-size: 10px;
+  color: #7b8bab;
+}
