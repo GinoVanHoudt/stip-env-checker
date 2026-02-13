@@ -3,6 +3,7 @@
 - Customize the header banner color for each environment
 - Open the current URL path on a different environment
 - Enable dark mode for the STIP environment (still experimental, not perfect yet)
+
 ![img.png](img.png)
 ![img_1.png](img_1.png)
 
