@@ -8,9 +8,10 @@ function applyDarkMode() {
     // Global inversion
     'html { filter: invert(1) hue-rotate(180deg) !important; }',
     'body { background-color: #d1d1e5 !important; }',
-    // Restore buttons (already dark, so double inversion), except icon/mdc buttons
-    'button:not(.mat-unthemed) { filter: invert(1) hue-rotate(180deg) !important; }',
-    // Core-home exemption (already dark)
+    // Restore buttons (already dark, so double inversion), except mat unthemed buttons
+    `button:not(.mat-unthemed):not(.menu-btn):not(.mat-mdc-menu-item) { filter: invert(1) hue-rotate(180deg) !important; }`,
+    // core-home and core-header exemption (already dark)
+    '.core-header{ background-color: #dcdcf0 !important; }',
     '.core-home { background-color: #d1d1e5 !important; }',
     '.core-home__title-inner-container { h2 { color: white !important; } }',
   ].join(' ');
