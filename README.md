@@ -1,6 +1,6 @@
 # How to install the Chrome extension locally?
 ### Using the .zip file (for most users)
-1. download the .zip file from https://github.com/GinoVanHoudt/stip-env-checker/blob/main/stip-env-checker.zip
+1. download the .zip file from https://github.com/GinoVanHoudt/stip-env-toolkit/blob/main/stip-env-toolkit.zip
 2. extract the .zip file 
 3. in Chrome, go to `chrome://extensions/`
 4. drag and drop the extracted folder into the extensions page 
