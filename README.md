@@ -20,6 +20,5 @@
 _(If I find the time for it)_
 - publish extension to the public Chrome web store
 - implement typescript
-- color picker to customize the background color of the header banner
 - instead of changing header banner color, change the theme of the app
 - improve dark mode
